@@ -1,0 +1,103 @@
+cv:
+  name: Hiram Zuniga
+  label: Computer Vision Researcher
+  email: zuniga.hiram@cetys.edu.mx
+  location: Tijuana, MX / San Diego, CA
+  image: ""
+  summary: >
+    Computer vision researcher and ML engineer. Author of 5 peer-reviewed papers and
+    manuscripts (3 first-author), including two oral presentations at SPIE Optics + Photonics 2026.
+    Podium finishes at MIT iQuHACK, Yale YQuantum, and NASA Space Apps.
+
+  social_networks:
+    - network: GitHub
+      username: HiramZ04
+    - network: LinkedIn
+      username: hiramzunigadatascience
+
+  sections:
+    Research Interests:
+      - summary: >
+          Computer vision, with applications in medical imaging and assistive robotics.
+          Vision-language models and retrieval-augmented multimodal systems; generative
+          models and diffusion; quantum machine learning.
+
+    Education:
+      - institution: CETYS University
+        location: Tijuana, Mexico
+        area: Computer Science Engineering
+        studyType: B.S.
+        start_date: 2022
+        end_date: 2026
+        courses: "Machine Learning, Deep Learning, Computer Vision, Parallel Computing, Data Structures, Analysis of Algorithms, Probability & Statistics"
+      - institution: Yonsei University (Winter Abroad)
+        location: Seoul, South Korea
+        area: Big Data Analysis
+        studyType: Program
+        start_date: 2023
+        end_date: 2024
+
+    Research Experience:
+      - company: CETYS University
+        position: Research Assistant — Computer Vision
+        location: Tijuana, MX
+        start_date: 2025-10-01
+        end_date: Present
+        highlights:
+          - Fine-tuned a VLM and built a RAG pipeline for leukemia cell classification (SPIE 2026).
+          - Benchmarked CNN architectures for Alzheimer's MRI detection (first-author, SPIE 2026).
+          - Leading a socially assistive human-following robot (deep learning, sensor fusion, LLM interface).
+      - company: California State University, Los Angeles
+        position: ML Capstone — Augmented AI for Thematic Analysis
+        location: Remote
+        start_date: 2025-08-01
+        end_date: Present
+        highlights:
+          - Built an NLP pipeline (SentenceTransformers, UMAP, clustering, Optuna) producing theme maps.
+          - Designed LLM-assisted labeling and summarization with a hierarchical label tree.
+
+    Honors & Awards:
+      - year: 2026
+        summary: "3rd place, MIT iQuHACK 2026 (Quantum Rings track)"
+      - year: 2026
+        summary: "3rd place, Yale YQuantum 2026"
+      - year: 2025
+        summary: "Regional 1st place & Global Nominee, NASA International Space Apps Challenge"
+      - year: 2023
+        summary: "2nd place, GEAR Web3 Regional Hackathon (USD $1,000 prize)"
+
+    Industry Experience:
+      - company: I3PL (Cross-Border Logistics Solutions)
+        position: Data Analyst
+        location: Tijuana, MX
+        start_date: 2025-03-01
+        end_date: 2025-09-01
+        highlights:
+          - Automated multi-API reporting pipelines in Python (80% reduction in manual work).
+          - Built validated data-capture and real-time dashboards across operations.
+
+    Technical Skills:
+      - category: Programming
+        skills:
+          - Python
+          - SQL
+          - Java
+          - Swift
+      - category: ML / CV
+        skills:
+          - PyTorch
+          - scikit-learn
+          - OpenCV
+          - YOLO
+          - VLMs / CNNs / RAG
+      - category: Cloud
+        skills:
+          - AWS (Lambda, Step Functions, EventBridge, SQS, SNS, RDS)
+          - PostgreSQL
+          - Linux
+
+    Languages:
+      - language: Spanish
+        fluency: Native
+      - language: English
+        fluency: TOEFL iBT 100/120
