@@ -6,7 +6,7 @@ subtitle: Computer Vision Researcher · B.S. Computer Science, CETYS University 
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic1.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Tijuana, MX / San Diego, CA</p>
