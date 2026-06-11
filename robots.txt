@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.hirambigdata.com/sitemap.xml
+Sitemap: https://hiramz04.github.io/sitemap.xml
