@@ -15,3 +15,9 @@ An end-to-end ML toolkit for exoplanet detection built on NASA open data, compar
 <div style="margin: 1.2rem 0;">
   <a href="https://github.com/HiramZ04/NASA-SPACE-APPS-HACKATOON-2025" target="_blank" style="display:inline-block;padding:0.5rem 1.3rem;background:var(--global-theme-color);color:#fff;border-radius:6px;font-weight:600;text-decoration:none;">💻 Code on GitHub</a>
 </div>
+
+---
+
+<video autoplay muted loop controls style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
+  <source src="/assets/img/ExoVisionVideo.mp4" type="video/mp4">
+</video>
