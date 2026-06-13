@@ -10,49 +10,56 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <style>
-/* Los thumbnails de publicaciones: agrandar.
-   El template usa una fila flex (.row) con dos hijos: la figura (preview) y el texto.
-   Apuntamos a los hijos directos de cada item para controlar el ancho de forma robusta,
-   sin depender de las clases col-* de Bootstrap (compat está desactivado en este sitio). */
-
-.publications ol.bibliography > li .row {
-  display: flex !important;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 1rem;
+/* Columna del thumbnail: clase propia definida en _layouts/bib.liquid local.
+   Sin conflicto con col-sm-2 del gem — ancho directo al 30%. */
+.publications ol.bibliography > li .bib-thumb-col {
+  position: relative;
+  padding: 0 15px;
+  box-sizing: border-box;
+  flex: 0 0 30%;
+  max-width: 30%;
 }
 
-/* Primer hijo del row = columna del thumbnail */
-.publications ol.bibliography > li .row > div:first-child {
-  flex: 0 0 30% !important;
-  max-width: 300px !important;
-  width: 30% !important;
+/* Columna del texto cuando hay thumbnail */
+.publications ol.bibliography > li .bib-content-col {
+  position: relative;
+  padding: 0 15px;
+  box-sizing: border-box;
+  flex: 1 1 0;
+  min-width: 0;
 }
 
-/* Segundo hijo del row = columna del texto */
-.publications ol.bibliography > li .row > div:last-child {
-  flex: 1 1 0 !important;
-  width: auto !important;
+/* Columna del texto cuando NO hay thumbnail */
+.publications ol.bibliography > li .bib-content-full {
+  position: relative;
+  padding: 0 15px;
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
-/* La imagen ocupa todo el ancho de su columna ya agrandada */
-.publications ol.bibliography img.preview,
-.publications ol.bibliography .preview {
-  width: 100% !important;
-  height: auto !important;
-  max-width: 100% !important;
+/* La imagen y su figure llenan toda la columna del thumbnail */
+.publications ol.bibliography > li .bib-thumb-col figure {
+  display: block;
+  width: 100%;
+  margin: 0;
 }
 
-/* En móvil, apilar */
-@media (max-width: 600px) {
-  .publications ol.bibliography > li .row {
-    flex-direction: column;
-  }
-  .publications ol.bibliography > li .row > div:first-child,
-  .publications ol.bibliography > li .row > div:last-child {
-    flex: 1 1 100% !important;
-    width: 100% !important;
-    max-width: 100% !important;
+.publications ol.bibliography > li .bib-thumb-col figure picture,
+.publications ol.bibliography > li .bib-thumb-col figure picture img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* En móvil, apilar verticalmente */
+@media (max-width: 576px) {
+  .publications ol.bibliography > li .bib-thumb-col,
+  .publications ol.bibliography > li .bib-content-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
   }
 }
 </style>

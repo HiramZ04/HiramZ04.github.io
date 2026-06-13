@@ -1,0 +1,13 @@
+# Local overrides of gem-owned files.
+# Generated manually (bundle exec al-folio upgrade overrides audit not available in this env).
+# Run `bundle exec al-folio upgrade overrides diff <path>` after gem updates to check for upstream drift.
+
+overrides:
+  - path: _layouts/bib.liquid
+    owner_gem: al_folio_core
+    owner_gem_version: "1.0.11"
+    reason: >
+      Changed thumbnail column class from "col col-sm-2 abbr" to "bib-thumb-col abbr"
+      and text column from "col-sm-8"/"col-sm-10" to "bib-content-col"/"bib-content-full"
+      so that custom CSS in _pages/publications.md can set thumbnail width to ~30%
+      without fighting al_folio_core's Bootstrap-grid CSS for col-sm-2 (16.67%).
