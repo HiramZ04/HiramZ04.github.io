@@ -12,4 +12,6 @@ A convolutional neural network pipeline for multi-class detection of tuberculosi
 
 **Stack:** PyTorch, CNNs, medical imaging, Python.
 
-[Code on GitHub](https://github.com/andres-go/tuberculosis-pneumonia-classifier)
+<div style="margin: 1.2rem 0;">
+  <a href="https://github.com/andres-go/tuberculosis-pneumonia-classifier" target="_blank" style="display:inline-block;padding:0.5rem 1.3rem;background:var(--global-theme-color);color:#fff;border-radius:6px;font-weight:600;text-decoration:none;">💻 Code on GitHub</a>
+</div>

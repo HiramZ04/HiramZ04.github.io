@@ -12,4 +12,6 @@ Regression and classification models that predict medical insurance costs from p
 
 **Stack:** scikit-learn, pandas, Python, data analysis.
 
-[Code on GitHub](https://github.com/HiramZ04/medical-insurance-prediction)
+<div style="margin: 1.2rem 0;">
+  <a href="https://github.com/HiramZ04/medical-insurance-prediction" target="_blank" style="display:inline-block;padding:0.5rem 1.3rem;background:var(--global-theme-color);color:#fff;border-radius:6px;font-weight:600;text-decoration:none;">💻 Code on GitHub</a>
+</div>
