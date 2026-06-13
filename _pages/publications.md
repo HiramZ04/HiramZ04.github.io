@@ -9,60 +9,7 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<style>
-/* Columna del thumbnail: clase propia definida en _layouts/bib.liquid local.
-   Sin conflicto con col-sm-2 del gem — ancho directo al 30%. */
-.publications ol.bibliography > li .bib-thumb-col {
-  position: relative;
-  padding: 0 15px;
-  box-sizing: border-box;
-  flex: 0 0 30%;
-  max-width: 30%;
-}
-
-/* Columna del texto cuando hay thumbnail */
-.publications ol.bibliography > li .bib-content-col {
-  position: relative;
-  padding: 0 15px;
-  box-sizing: border-box;
-  flex: 1 1 0;
-  min-width: 0;
-}
-
-/* Columna del texto cuando NO hay thumbnail */
-.publications ol.bibliography > li .bib-content-full {
-  position: relative;
-  padding: 0 15px;
-  box-sizing: border-box;
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
-/* La imagen y su figure llenan toda la columna del thumbnail */
-.publications ol.bibliography > li .bib-thumb-col figure {
-  display: block;
-  width: 100%;
-  margin: 0;
-}
-
-.publications ol.bibliography > li .bib-thumb-col figure picture,
-.publications ol.bibliography > li .bib-thumb-col figure picture img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
-/* En móvil, apilar verticalmente */
-@media (max-width: 576px) {
-  .publications ol.bibliography > li .bib-thumb-col,
-  .publications ol.bibliography > li .bib-content-col {
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0;
-  }
-}
-</style>
+<!-- El layout de columnas (bib-thumb-col / bib-content-col) viene de _layouts/bib.liquid -->
 
 <!-- Bibsearch Feature -->
 

@@ -1,3 +1,11 @@
+<style>
+.bib-thumb-col{position:relative;padding:0 15px;box-sizing:border-box;flex:0 0 30%;max-width:30%}
+.bib-content-col{position:relative;padding:0 15px;box-sizing:border-box;flex:1 1 0;min-width:0}
+.bib-content-full{position:relative;padding:0 15px;box-sizing:border-box;flex:0 0 100%;max-width:100%}
+.bib-thumb-col figure{display:block;width:100%;margin:0}
+.bib-thumb-col figure picture,.bib-thumb-col figure picture img{display:block;width:100%;max-width:100%;height:auto}
+@media(max-width:576px){.bib-thumb-col,.bib-content-col{flex:0 0 100%;max-width:100%;padding:0}}
+</style>
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="bib-thumb-col abbr">
