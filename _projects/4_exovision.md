@@ -21,3 +21,16 @@ An end-to-end ML toolkit for exoplanet detection built on NASA open data, compar
 <video autoplay muted loop controls style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
   <source src="/assets/img/ExoVisionVideo.mp4" type="video/mp4">
 </video>
+
+<div class="row mt-2">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/NASA2.JPG" title="Presenting ExoVision at NASA Space Apps Challenge Tijuana 2025" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/NASA1.JPG" title="Team Popeye — Regional 1st place, NASA Space Apps Challenge 2025" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
+<video controls style="width:100%;border-radius:8px;margin-top:1.5rem;">
+  <source src="/assets/img/NASAWinner.MP4" type="video/mp4">
+</video>
