@@ -5,6 +5,7 @@ description: Open-source health data platform built at the Big Data hackathon (S
 img: assets/img/3.jpg
 importance: 3
 category: hackathon
+category: hackathon
 related_publications: false
 ---
 

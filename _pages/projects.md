@@ -5,7 +5,6 @@ permalink: /projects/
 description: Selected work in computer vision, ML systems, and hackathons.
 nav: true
 nav_order: 2
-display_categories: [research, hackathon]
 horizontal: false
 ---
 

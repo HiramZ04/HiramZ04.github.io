@@ -5,6 +5,7 @@ description: Quantum Approximate Optimization Algorithm applied to premium inves
 img: assets/img/5.jpg
 importance: 1
 category: hackathon
+category: hackathon
 related_publications: false
 ---
 
