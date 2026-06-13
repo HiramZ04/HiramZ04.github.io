@@ -31,6 +31,6 @@ An end-to-end ML toolkit for exoplanet detection built on NASA open data, compar
   </div>
 </div>
 
-<video controls style="width:100%;border-radius:8px;margin-top:1.5rem;">
-  <source src="/assets/img/NASAWinner.MP4" type="video/mp4">
-</video>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-top:1.5rem;">
+  <iframe src="https://www.youtube.com/embed/K1i6ddXwtSw" title="ExoVision — Regional Winner Announcement, NASA Space Apps Challenge Tijuana 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
