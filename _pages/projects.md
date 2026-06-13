@@ -9,6 +9,12 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<style>
+.projects .card figure,
+.projects .card figure picture { display: block; width: 100%; height: 200px; overflow: hidden; }
+.projects .card img.card-img-top { width: 100%; height: 200px; object-fit: cover; object-position: center; }
+</style>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
