@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected work in computer vision, ML systems, and hackathons.
+description: Selected work outside research — mostly ML engineering and applied AI, several built at hackathons.
 nav: true
 nav_order: 2
 horizontal: false
