@@ -18,7 +18,7 @@ An end-to-end NLP pipeline that maps 21,000+ books into thematic clusters: Sente
 
 ---
 
-<video controls style="width:100%;border-radius:8px;margin-bottom:1.5rem;" preload="metadata">
+<video autoplay muted loop controls style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
   <source src="/assets/img/BookExplorerVideo.mp4" type="video/mp4">
 </video>
 
