@@ -1,12 +1,9 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-cv_pdf: /assets/pdf/hiram_cv_academic.pdf
-cv_format: rendercv # options: rendercv, jsonresume
-description: Academic CV. Use the button to download the PDF; an industry resume is also available on the about page.
-toc:
-  sidebar: left
 ---
+
+<iframe src="/assets/pdf/hiram_cv_academic.pdf" width="100%" height="900px" style="border: none;"></iframe>
