@@ -10,28 +10,47 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <style>
-/* Agrandar los thumbnails de las publicaciones */
-.publications .bibliography .col-sm-2.abbr,
-.publications ol.bibliography li .col-sm-2.abbr {
-  flex: 0 0 auto !important;
-  width: 30% !important;
+/* Los thumbnails de publicaciones: agrandar.
+   El template usa una fila flex (.row) con dos hijos: la figura (preview) y el texto.
+   Apuntamos a los hijos directos de cada item para controlar el ancho de forma robusta,
+   sin depender de las clases col-* de Bootstrap (compat está desactivado en este sitio). */
+
+.publications ol.bibliography > li .row {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+/* Primer hijo del row = columna del thumbnail */
+.publications ol.bibliography > li .row > div:first-child {
+  flex: 0 0 30% !important;
   max-width: 300px !important;
-  text-align: center;
+  width: 30% !important;
 }
-.publications .bibliography .col-sm-8,
-.publications ol.bibliography li .col-sm-8 {
-  flex: 0 0 auto !important;
-  width: 66% !important;
+
+/* Segundo hijo del row = columna del texto */
+.publications ol.bibliography > li .row > div:last-child {
+  flex: 1 1 0 !important;
+  width: auto !important;
 }
-.publications .bibliography .preview,
-.publications .bibliography img.preview {
+
+/* La imagen ocupa todo el ancho de su columna ya agrandada */
+.publications ol.bibliography img.preview,
+.publications ol.bibliography .preview {
   width: 100% !important;
   height: auto !important;
   max-width: 100% !important;
 }
-@media (max-width: 576px) {
-  .publications .bibliography .col-sm-2.abbr,
-  .publications .bibliography .col-sm-8 {
+
+/* En móvil, apilar */
+@media (max-width: 600px) {
+  .publications ol.bibliography > li .row {
+    flex-direction: column;
+  }
+  .publications ol.bibliography > li .row > div:first-child,
+  .publications ol.bibliography > li .row > div:last-child {
+    flex: 1 1 100% !important;
     width: 100% !important;
     max-width: 100% !important;
   }
