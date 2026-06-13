@@ -9,6 +9,35 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+<style>
+/* Agrandar los thumbnails de las publicaciones */
+.publications .bibliography .col-sm-2.abbr,
+.publications ol.bibliography li .col-sm-2.abbr {
+  flex: 0 0 auto !important;
+  width: 30% !important;
+  max-width: 300px !important;
+  text-align: center;
+}
+.publications .bibliography .col-sm-8,
+.publications ol.bibliography li .col-sm-8 {
+  flex: 0 0 auto !important;
+  width: 66% !important;
+}
+.publications .bibliography .preview,
+.publications .bibliography img.preview {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+@media (max-width: 576px) {
+  .publications .bibliography .col-sm-2.abbr,
+  .publications .bibliography .col-sm-8 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+</style>
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
