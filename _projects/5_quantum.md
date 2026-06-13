@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Quantum Runtime Predictor
-description: ML models predicting quantum-algorithm runtime and fidelity thresholds from QASM features. MIT iQuHACK — 3rd place.
+title: QAOA Portfolio Optimizer
+description: Quantum Approximate Optimization Algorithm applied to premium investment portfolio allocation. YQuantum (Yale) — 3rd place.
 img: assets/img/5.jpg
-importance: 5
+importance: 1
 category: hackathon
 related_publications: false
 ---
 
-Regression and classification models predicting the runtime and the minimum threshold needed to maintain a target fidelity for quantum algorithms, using features extracted from circuits in QASM (Quantum Assembly Language). **3rd place**, Quantum Rings track, MIT iQuHACK 2026.
+Applied the Quantum Approximate Optimization Algorithm (QAOA) to the problem of premium investment portfolio allocation — finding optimal asset combinations under real-world constraints. Built end-to-end in under 48 hours at Yale's **YQuantum** hackathon. **3rd place overall.**
 
-**Stack:** Python, scikit-learn, Qiskit, QASM parsing.
+**Stack:** Qiskit, QAOA, Python, portfolio optimization.
+
+[Live site](https://yquantum-webpage.vercel.app/) · [Code on GitHub](https://github.com/ilayd-a/Optimization-of-Premium-Investment-Portfolios)

@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Augmented AI for Thematic Analysis
-description: NLP pipeline (embeddings + UMAP + clustering + LLM labeling) turning raw text into theme maps. Capstone with Cal State LA.
+title: AI Book Explorer
+description: NLP pipeline using sentence embeddings, UMAP, and LLM-assisted clustering for thematic analysis. Capstone with Cal State LA.
 img: assets/img/6.jpg
-importance: 6
+importance: 3
 category: research
 related_publications: false
 ---
 
-An end-to-end NLP pipeline that turns raw interviews and reviews into a prioritized theme map: SentenceTransformers embeddings, UMAP dimensionality reduction, clustering, and Optuna hyperparameter optimization, with LLM-assisted labeling and summarization controlled by a hierarchical label tree. Ongoing capstone collaboration with California State University, Los Angeles.
+An end-to-end NLP pipeline that maps large text corpora into thematic clusters: SentenceTransformers embeddings, UMAP dimensionality reduction, and LLM-assisted labeling — applied to book and document exploration. Capstone project developed in collaboration with **California State University, Los Angeles**.
 
 **Stack:** SentenceTransformers, UMAP, Optuna, Ollama, Python.
+
+[Code on GitHub](https://github.com/HiramZ04/Cal-State-UMAP_Clustering)
