@@ -2,7 +2,7 @@
 layout: page
 title: TB & Pneumonia Classifier
 description: CNN-based classifier for tuberculosis and pneumonia detection from chest X-rays.
-img: assets/img/1.jpg
+img: assets/img/PneumoniaThumb.jpeg
 importance: 6
 category: research
 related_publications: false

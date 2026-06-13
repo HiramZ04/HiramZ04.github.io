@@ -2,7 +2,7 @@
 layout: page
 title: Medical Insurance Prediction
 description: ML models predicting medical insurance charges from demographic and health features.
-img: assets/img/6.jpg
+img: assets/img/InsuranceThumb.png
 importance: 8
 category: research
 related_publications: false

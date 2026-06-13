@@ -2,7 +2,7 @@
 layout: page
 title: StudyBot
 description: LLM-powered study assistant with RAG — summarizes documents, generates quizzes, and answers questions from your own material.
-img: assets/img/7.jpg
+img: assets/img/StudybotThumb.png
 importance: 7
 category: research
 related_publications: false
