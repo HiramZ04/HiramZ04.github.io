@@ -2,7 +2,7 @@
 layout: page
 title: ExoVision — ML for Exoplanet Detection
 description: ML pipeline comparing 6 classifiers on NASA open data to detect exoplanets. NASA Space Apps Challenge — Regional 1st place, Global Nominee.
-img: assets/img/NASAThumb.png
+img: assets/img/NASA1.JPG
 importance: 4
 category: hackathon
 related_publications: false
