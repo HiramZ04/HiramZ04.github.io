@@ -40,14 +40,17 @@ This matters because simulating quantum circuits can take hours; a fast ML basel
 
 <div class="row mt-2">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/MIT1.JPG" title="3rd Place — iQuHACK 2026 Quantum Rings Challenge" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/MIT7.jpg" title="Team Popeye's receiving 3rd Place — iQuHACK 2026 Quantum Rings Challenge" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/MIT2.jpeg" title="MIT campus in winter — iQuHACK 2026" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/MIT1.JPG" title="3rd Place certificate — iQuHACK 2026 Quantum Rings Challenge" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
 
 <div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/MIT2.jpeg" title="MIT campus in winter — iQuHACK 2026" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/MIT4.jpeg" title="Quantum hardware at MIT" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
