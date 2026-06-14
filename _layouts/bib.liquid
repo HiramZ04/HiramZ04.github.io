@@ -5,6 +5,7 @@
 .bib-thumb-col figure{display:block;width:100%;margin:0}
 .bib-thumb-col figure picture,.bib-thumb-col figure picture img{display:block;width:100%;max-width:100%;height:auto}
 @media(max-width:576px){.bib-thumb-col,.bib-content-col{flex:0 0 100%;max-width:100%;padding:0}}
+.author strong{color:var(--global-theme-color);font-weight:700;text-decoration:none}
 </style>
 <div class="row">
   {% if site.enable_publication_thumbnails %}
@@ -91,10 +92,10 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
+          <strong>
             {{- author.first }}
             {{ author_last_html -}}
-          </em>
+          </strong>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
