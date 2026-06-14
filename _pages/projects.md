@@ -13,6 +13,7 @@ horizontal: false
 .projects .card figure,
 .projects .card figure picture { display: block; width: 100%; height: 200px; overflow: hidden; }
 .projects .card img.card-img-top { width: 100%; height: 200px; object-fit: cover; object-position: center; }
+.projects .card img.card-img-top[src*="MIT3"] { object-position: top; }
 </style>
 
 <div class="projects">
