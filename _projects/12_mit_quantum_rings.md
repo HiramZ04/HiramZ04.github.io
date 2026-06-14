@@ -2,7 +2,7 @@
 layout: page
 title: Quantum Rings — MIT iQuHACK 2026
 description: ML models predicting quantum circuit runtime and fidelity threshold from QASM features. MIT iQuHACK 2026 — 3rd place, Quantum Rings Challenge.
-img: assets/img/MIT1.JPG
+img: assets/img/MIT3.jpeg
 importance: 10
 category: hackathon
 related_publications: false
