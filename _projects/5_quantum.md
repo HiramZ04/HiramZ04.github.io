@@ -19,12 +19,16 @@ Applied the Quantum Approximate Optimization Algorithm (QAOA) to the problem of 
 
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/yale1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-
-<div class="row mt-3">
+<div class="row mt-2">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/yale1.jpg" title="YQuantum 2026 — 3rd place" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/yale5.jpg" title="The team at YQuantum 2026" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
+</div>
+
+<div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/yale2.jpg" title="Welcome to YQuantum 2026, Yale" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>

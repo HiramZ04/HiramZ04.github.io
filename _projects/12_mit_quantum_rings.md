@@ -25,7 +25,14 @@ This matters because simulating quantum circuits can take hours; a fast ML basel
 
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/MIT3.jpeg" title="Massachusetts Institute of Technology — iQuHACK 2026" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row mt-2">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/MIT3.jpeg" title="Massachusetts Institute of Technology — iQuHACK 2026" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/MIT2.jpeg" title="MIT campus in winter — iQuHACK 2026" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-top:1.5rem;margin-bottom:1.5rem;">
   <iframe src="https://www.youtube.com/embed/DH8juniPkKs?start=5436&autoplay=1&mute=1" title="MIT iQuHACK 2026 — Official Award Ceremony, Team Popeye's 3rd Place" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
@@ -45,8 +52,6 @@ This matters because simulating quantum circuits can take hours; a fast ML basel
     {% include figure.liquid loading="eager" path="assets/img/MIT4.jpeg" title="Quantum hardware at MIT" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/MIT2.jpeg" title="MIT campus — iQuHACK 2026" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/MIT5.jpeg" title="iQuHACK 2026 — 400+ competitors at MIT" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
-
-{% include figure.liquid loading="eager" path="assets/img/MIT5.jpeg" title="iQuHACK 2026 — 400+ competitors at MIT" class="img-fluid rounded z-depth-1 mt-3" zoomable=true %}
