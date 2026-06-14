@@ -19,10 +19,9 @@ A health resource platform built at the **San Diego Big Data Hackathon 2025** (S
 
 ---
 
-<div class="row mt-2">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/SDSU1.jpg" title="San Diego Big Data Hackathon 2025 — team photo" class="img-fluid rounded z-depth-1" zoomable=true %}
-  </div>
+{% include figure.liquid loading="eager" path="assets/img/SDSU1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+<div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/SDSU2.jpg" title="Resource map — shelters and services near San Diego" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
