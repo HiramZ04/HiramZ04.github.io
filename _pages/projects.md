@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected work outside research — mostly ML engineering and applied AI, several built at hackathons.
+description: Selected work outside research, most of them involve Machine Learning and applied AI, several of these projects were built at hackathons under 48 hours.
 nav: true
 nav_order: 2
 horizontal: false
