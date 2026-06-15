@@ -1,9 +1,6 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
-cv_pdf: /assets/pdf/hiram_cv_academic.pdf # path to your CV PDF file
-email: zuniga.hiram@cetys.edu.mx # your email address
 github_username: HiramZ04 # your GitHub user name
 linkedin_username: hiramzunigadatascience # your LinkedIn user name
-kaggle_id: hiramzuniga # your Kaggle ID
 # scholar_userid: # your Google Scholar ID — add it once you create your profile!
 # orcid_id: # your ORCID ID — recommended before MS/PhD applications

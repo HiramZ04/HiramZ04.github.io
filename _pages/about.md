@@ -10,10 +10,14 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Tijuana, Mx</p>
-    <p>zuniga.hiram@cetys.edu.mx</p>
+    <p style="margin-bottom:0.6rem;">zuniga.hiram@cetys.edu.mx</p>
+    <p style="display:flex;gap:1.2rem;justify-content:center;font-size:1.6rem;margin-top:0.4rem;">
+      <a href="https://github.com/HiramZ04" target="_blank" style="color:inherit;"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/hiramzunigadatascience" target="_blank" style="color:inherit;"><i class="fa-brands fa-linkedin"></i></a>
+    </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
