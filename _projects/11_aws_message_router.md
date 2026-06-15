@@ -3,7 +3,7 @@ layout: page
 title: AWS Message Router
 description: Serverless message routing pipeline using API Gateway, SQS, Lambda, EventBridge, Step Functions, SNS, DynamoDB, and S3. Presented at an AWS meetup hosted at the Amazon San Diego office.
 img: assets/img/aws3.jpg
-importance: 9
+importance: 5
 category: hackathon
 related_publications: false
 ---

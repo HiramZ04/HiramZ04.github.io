@@ -3,7 +3,7 @@ layout: page
 title: Medical Insurance Prediction
 description: ML-powered web app predicting medical insurance charges from demographic and health features.
 img: assets/img/InsuranceThumb.png
-importance: 8
+importance: 12
 category: research
 related_publications: false
 ---

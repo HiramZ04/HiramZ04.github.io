@@ -3,7 +3,7 @@ layout: page
 title: AI Book Explorer
 description: NLP pipeline using sentence embeddings, UMAP, and LLM-assisted clustering for thematic analysis. Capstone with Cal State LA.
 img: assets/img/BookThumb.png
-importance: 5
+importance: 7
 category: research
 related_publications: false
 ---
