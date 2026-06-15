@@ -13,7 +13,7 @@ profile:
     <p>zuniga.hiram@cetys.edu.mx</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: False # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -30,4 +30,4 @@ I'm an undergrad **computer vision** researcher, advised by [Ulises Orozco-Rosas
 
 Outside research I enjoy working with machine learning, i have developed AWS applications and demoed them at the Amazon San Diego office, and have participated in hackathons with podium finishes at **MIT iQuHACK**, **Yale YQuantum**, and **NASA Space Apps**.        
 
-I'm currently open to Software engineering and ML positions in industry and research collaborations. I am preparing applications for graduate programs. Here are my [industry resume](/assets/pdf/hiram_resume_industry.pdf) and [academic CV](/assets/pdf/hiram_cv_academic.pdf).
+I'm currently open to Software engineering and ML positions in industry and research collaborations. I am preparing applications for graduate programs. Here is my [industry resume](/assets/pdf/FullStack_Resume_HiramZuniga.pdf).
