@@ -3,7 +3,7 @@ layout: page
 title: RegaLoop — iOS Donation App
 description: iOS app using CoreML on-device inference to classify donations from photos and connect donors with shelters. Swift Changemakers Hackathon 2026 — qualified for national phase.
 img: assets/img/SWIFT2.jpg
-importance: 3
+importance: 6
 category: hackathon
 related_publications: false
 ---

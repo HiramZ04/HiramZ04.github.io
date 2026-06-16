@@ -3,7 +3,7 @@ layout: page
 title: QAOA Portfolio Optimizer
 description: Quantum Approximate Optimization Algorithm applied to premium investment portfolio allocation. YQuantum (Yale) — 3rd place.
 img: assets/img/yale1.jpg
-importance: 6
+importance: 8
 category: hackathon
 related_publications: false
 ---

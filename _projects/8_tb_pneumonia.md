@@ -3,7 +3,7 @@ layout: page
 title: TB & Pneumonia Classifier
 description: CNN-based web app for tuberculosis and pneumonia detection from chest X-rays, with patient management dashboard.
 img: assets/img/PneumoniaThumb.jpeg
-importance: 9
+importance: 11
 category: research
 related_publications: false
 ---

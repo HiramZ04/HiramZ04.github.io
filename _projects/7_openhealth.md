@@ -3,7 +3,7 @@ layout: page
 title: OpenHealth
 description: Health resource platform connecting users to shelters, medical aid, and mental health support. San Diego Big Data Hackathon (SDSU) 2025.
 img: assets/img/SDSU1.jpg
-importance: 8
+importance: 2
 category: hackathon
 related_publications: false
 ---
