@@ -3,7 +3,7 @@ layout: page
 title: Navi — Assistive Navigation for the Blind
 description: Real-time perception-to-voice navigation aid combining YOLO, LiDAR, VLM, and LLM. HackMerced XI (UC Merced).
 img: assets/img/navi1.jpeg
-importance: 3
+importance: 2
 category: hackathon
 related_publications: false
 ---

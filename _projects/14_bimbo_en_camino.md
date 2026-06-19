@@ -3,7 +3,7 @@ layout: page
 title: BIMBO en Camino
 description: iOS distribution assistant for Bimbo delivery drivers — route optimization, inventory forecasting, and voice interface. Swift Changemakers National Hackathon 2026, Mexico City. Enactus México & Apple.
 img: assets/img/ENACTUS4.png
-importance: 4
+importance: 3
 category: hackathon
 related_publications: false
 ---
