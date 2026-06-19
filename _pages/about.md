@@ -33,4 +33,4 @@ I'm an undergrad **computer vision** researcher, advised by [Ulises Orozco-Rosas
 
 Outside research I enjoy working with machine learning, i have developed AWS applications and demoed them at the Amazon San Diego office, and have participated in hackathons with podium finishes at **MIT iQuHACK**, **Yale YQuantum**, and **NASA Space Apps**.        
 
-I'm currently open to Software engineering and ML positions in industry and research collaborations. I am preparing applications for graduate programs. Here is my [industry resume](/assets/pdf/FullStack_Resume_HiramZuniga.pdf).
+I'm currently open to **Testing, Software engineering and ML positions** in industry. I am preparing applications for graduate programs. Here is my [industry resume](/assets/pdf/FullStack_Resume_HiramZuniga.pdf).
