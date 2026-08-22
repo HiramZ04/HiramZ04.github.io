@@ -29,8 +29,7 @@ latest_posts:
   limit: 3
 ---
 
-I'm an undergrad **computer vision** researcher, advised by [Ulises Orozco-Rosas](https://scholar.google.com/citations?user=ps44LygAAAAJ&hl=en). My interests are mostly on medical applications, such as **medical imaging**. I'm increasingly focused on **generative models and diffusion** where I am researching how Generative Models can enhance medical diagnosis and model training.
+I'm a Computer Science graduate interested in **computer vision** research, advised by [Ulises Orozco-Rosas](https://scholar.google.com/citations?user=ps44LygAAAAJ&hl=en). My interests are mostly on medical applications, such as **medical imaging**. I'm increasingly focused on **diffusion models** and how they can enhance medical diagnosis and model training for specialized applications.
 
-Outside research I enjoy working with machine learning, i have developed AWS applications and demoed them at the Amazon San Diego office, and have participated in hackathons with podium finishes at **MIT iQuHACK**, **Yale YQuantum**, and **NASA Space Apps**.        
+Outside research I enjoy working with machine learning, i have developed AWS applications and demoed them at the **Amazon San Diego office**, and have participated in hackathons with podium finishes at **MIT iQuHACK**, **Yale YQuantum**, and **NASA Space Apps**.        
 
-I'm currently open to **Testing, Software engineering and ML positions** in industry. I am preparing applications for graduate programs. Here is my [industry resume](/assets/pdf/FullStack_Resume_HiramZuniga.pdf).
