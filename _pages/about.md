@@ -29,7 +29,7 @@ latest_posts:
   limit: 3
 ---
 
-I'm a Computer Science graduate interested in **computer vision** research, advised by [Ulises Orozco-Rosas](https://scholar.google.com/citations?user=ps44LygAAAAJ&hl=en). My interests are mostly on medical applications, such as **medical imaging**. I'm increasingly focused on **diffusion models** and how they can enhance medical diagnosis and model training for specialized applications.
+I'm a Computer Science graduate interested in **computer vision** research, advised by [Ulises Orozco-Rosas](https://scholar.google.com/citations?user=ps44LygAAAAJ&hl=en) and [Kenia Picos](https://scholar.google.com/citations?user=EX8u0moAAAAJ&hl=en). My interests are mostly on medical applications, such as **medical imaging**. I'm increasingly focused on **diffusion models** and how they can enhance medical diagnosis and model training for specialized applications.
 
 Outside research I enjoy working with machine learning, i have developed AWS applications and demoed them at the **Amazon San Diego office**, and have participated in hackathons with podium finishes at **MIT iQuHACK**, **Yale YQuantum**, and **NASA Space Apps**.        
 

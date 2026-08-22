@@ -13,7 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: ""
 keywords: computer vision, machine learning, research, Hiram Zuniga, CETYS, SPIE, deep learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🤖 # the emoji used as the favicon
+icon: prof_pic1.png # image (in assets/img/) used as the favicon
 
 url: https://hiramz04.github.io
 baseurl:
